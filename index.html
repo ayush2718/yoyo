@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday to special one</title>
+<style>
+  body {
+    font-family: 'Times New Roman' , serif;
+    background: linear-gradient(to bottom, #D45769, #E69B45);  
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow-x: hidden;
+  }
+  #top-banner {
+    background-color: #f6d365; 
+    padding: 12px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0%;
+   z-index: 999;
+  }
+  #top-banner p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+  }
+  h1 {
+    font-size: 30px;
+    margin: 20px 0;
+    color: #f6d365;
+  }
+  .message-link {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #f6d365;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  .message-link:hover {
+    background-color: #fda085;
+  }
+  .content-container {
+    margin: 20px 0;
+    text-align: center; /* Center-align content */
+    padding: 20px;
+    border: 2px solid #ffbc42; /* Add border with bright color */
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+ .content-container:nth-child(odd) {
+    background-color: rgba(255, 225, 160, 0.9);
+  }
+  .romantic-object {
+    position: absolute;
+    font-size: 44px;
+    animation: float 6s infinite;
+  }
+  .heart {
+    color: red;
+  }
+  .kiss {
+    color: pink;
+  }
+  .hug {
+    color: orange;
+  }
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-40px);
+    }
+  }
+
+  /* Add this media query for mobile responsiveness */
+  @media (max-width: 669px) {
+    body {
+      font-size: 14px;
+    }
+    
+    .romantic-object {
+      font-size: 24px;
+    }
+    
+    #top-banner p {
+      font-size: 18px;
+    }
+    
+    h1 {
+      font-size: 28px;
+      margin: 10px 0;
+    }
+    
+    .message-link {
+      font-size: 16px;
+      padding: 8px 16px;
+    }
+    
+    .content-container {
+      margin: 10px 0;
+      padding: 10px;
+    }
+</style>
+</head>
+<body>
+  <div id="top-banner">
+    <p><em>Wishing You Happiest Birthday, my Love</em></p>
+  </div>
+  <p><h1>Surprise Birthday Wish</h1></p>
+<div class="content-container">
+    <a class="surprise-link" id="audio-link">Aage proceed krne se pahle kripa ye sunte hue aage badhe</a>
+    <audio controls>
+      <source src="C:\Users\user\Desktop\new\love.mpeg" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio>
+  </div>
+  <p style="text-align: left;">Click the link below for a special birthday message:</p>
+  <a class="message-link" id="message-link">Open Surprise Message</a>
+  <div class="content-container" id="message-content" style="display: none;">
+    <p>Happy Birthday to the most amazing person in my life! 🎉</p>
+    <p>On this special day, I want to remind you how much you mean to me. Your smile, your laughter, and your presence brighten up my world.</p>
+    <p>May your day be filled with love, joy, and unforgettable moments. Cheers to many more years of adventures together!</p>
+<div class="romantic-object heart" style="top: 10%; left: 30%;">&#x2665;</div>
+  <div class="romantic-object kiss" style="top: 20%; left: 60%;">&#x266A;</div>
+  <div class="romantic-object heart" style="top: 40%; left: 10%;">&#x2665;</div>
+  <div class="romantic-object kiss" style="top: 60%; left: 90%;">&#x266A;</div>
+  <div class="romantic-object heart" style="top: 80%; left: 40%;">&#x2665;</div>
+  <div class="romantic-object heart" style="top: 15%; left: 70%;">&#x2665;</div>
+  <div class="romantic-object kiss" style="top: 45%; left: 30%;">&#x266A;</div>
+  <div class="romantic-object heart" style="top: 70%; left: 20%;">&#x2665;</div>
+  <div class="romantic-object kiss" style="top: 90%; left: 80%;">&#x266A;</div>
+  <div class="romantic-object heart" style="top: 25%; left: 15%;">&#x2665;</div>
+  <div class="romantic-object kiss" style="top: 55%; left: 75%;">&#x266A;</div>
+  <div class="romantic-object hug" style="top: 35%; left: 45%;">&#x1F917;</div>
+  <div class="romantic-object heart" style="top: 50%; left: 50%;">&#x2665;</div>
+<script>
+   const messageLink = document.getElementById('message-link');
+   const messageContent = document.getElementById('message-content');
+
+   messageLink.addEventListener('click', () => {
+     messageLink.style.display = 'none';
+     messageContent.style.display = 'block';
+   });
+</script>
+<div class="content-container">
+   <a class="surprise-link" id="audio-link">Kuch dil ke baatein</a>
+   <audio controls>
+     <source src="C:\Users\user\Desktop\bhusd\Afreen_Afreen.mp3" type="audio/mpeg">
+     Your browser does not support the audio tag.
+   </audio>
+</div>
+<div class="content-container">
+   <a class="surprise-link" id="video-link">Watch a Surprise Video</a>
+   <video controls>
+     <source src="C:\Users\user\Desktop\ayu\VIDEO_8a22727f-865b-4d1c-bf03-9f00e7598381.mp4" type="video/mp4">
+     Your browser does not support the video tag.
+   </video>
+</div>
+<div class="content-container">
+   <a class="surprise-link" id="photo-link" href="INSERT_PHOTO_LINK_HERE" target="_blank">View a Special Photo</a>
+   <img src="C:\Users\user\Desktop\new\aashi3.jpg" alt="Special Photo">
+</div>
+
+</body>
+</html>
